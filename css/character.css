@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+html {
+    font-size: 62.5%;
+}
+h1 {
+    font-size: 4.8rem;
+    font-weight: 400;
+    color: #081F32;
+}
+h2 {
+    font-size: 2rem;
+    line-height: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 1.6rem;
+    color: #8E8E93;
+}
+h3 {
+    font-size: 1.6rem;
+    line-height: 24px;
+    font-weight: 700;
+    color: #081F32;
+}
+p {
+    font-size: 1.4rem;
+    line-height: 20px;
+    font-weight: 400;
+    color: #6E798C;
+}
+header{
+    width: 100%;
+    display: flex;
+    padding: 1rem 13rem;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+@media(max-width: 768px){
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+}
+#headerLogos {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem 13rem 4rem 13rem;
+}
+a {
+    font-family: 'Karla';
+    gap: 16px;
+    font-size: 1.8rem;
+    font-weight: 700px;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover {
+    color: #97ce4c;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagem {
+    margin-bottom: 1rem;
+    border: solid 5px #F2F2F7;
+    border-radius: 50%;
+}
+.name {
+    text-align: center;
+}
+#content {
+    margin-top: 5rem;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+}
+#episodes {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 332px;
+}
+#character-info {
+    display: flex;
+    text-align: left;
+    gap: 20px;
+}
+.infocard {
+    width: 380px;
+    display: flex;
+    padding: 1.6rem;
+    flex-direction: column;
+    border-bottom: solid 1px #21212114;
+}
